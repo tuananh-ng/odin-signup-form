@@ -7,3 +7,8 @@
          url('fonts/NorseBold.ttf') format('truetype'),
          url('fonts/NorseBold.svg#NorseBold') format('svg');
 }
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
