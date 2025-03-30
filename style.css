@@ -81,7 +81,10 @@ div.summary-text > p:last-child {
 }
 
 div.signup-form {
-    margin-top: 40px;
+    margin-top: 40px;  
+}
+
+div.signup-form > form {
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
