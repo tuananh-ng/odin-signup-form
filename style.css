@@ -88,6 +88,9 @@ div.signup-form > form {
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     padding: 10px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 div.signup-form > form > p:first-child {
@@ -117,6 +120,7 @@ div.signup-form > button {
 .contact,
 .password {
     display: flex;
+    gap: 40px;
 }
 
 .form-cell {
