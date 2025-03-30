@@ -61,3 +61,9 @@ div.logo > p {
     font-family: 'NorseBold';
     font-size: clamp(1.5rem, 4rem, 80px);
 }
+
+div.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
