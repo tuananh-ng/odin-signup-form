@@ -26,3 +26,13 @@ div.hero-image {
     width: clamp(400px, 40%, 800px);
     background: url('./images/background-image.jpg') center/cover;
 }
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: max(100px, 20%);
+    position: relative;
+    top: 100px;
+}
