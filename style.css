@@ -20,3 +20,9 @@ body {
     font-size: 18px;
     line-height: 1.5;
 }
+
+div.hero-image {
+    height: 100vh;
+    width: clamp(400px, 40%, 800px);
+    background: url('./images/background-image.jpg') center/cover;
+}
