@@ -142,3 +142,21 @@ div.signup-form > button {
 div.signup-form > button {
     margin-top: 20px;
 }
+
+div.signup-form > button {
+    background-color: #596d48;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-weight: 700;
+    padding: 5px 40px;
+}
+div.signup-form > button:hover {
+    cursor: pointer;
+}
+
+div.signup-form > p > :link {
+    text-decoration: none;
+    color: #596d48;
+}
