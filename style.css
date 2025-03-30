@@ -36,3 +36,15 @@ div.logo {
     position: relative;
     top: 100px;
 }
+
+div.logo > img {
+    width: max(80px, 20%);
+    height: max(100px, 20%);
+}
+
+div.logo > p {
+    color: white;
+    text-align: center;
+    font-family: 'NorseBold';
+    font-size: clamp(1.5rem, 4rem, 80px);
+}
