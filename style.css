@@ -22,9 +22,18 @@ body {
 }
 
 div.hero-image {
-    height: 100vh;
+    height: clamp(400px, 100vh, 800px);
     width: clamp(400px, 40%, 800px);
     background: url('./images/background-image.jpg') center/cover;
+}
+
+div.hero-image > p {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 0.9rem;
+    text-align: center;
+    position: relative;
+    top: 75%;
 }
 
 div.logo {
