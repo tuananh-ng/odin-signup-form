@@ -93,3 +93,30 @@ div.signup-form > form > p,
 div.signup-form > form > div {
     margin-left: 40px;
 }
+
+input,
+button,
+label {
+    font: inherit;
+}
+
+div.signup-form > p,
+div.signup-form > button {
+    margin-left: 40px;
+}
+div.signup-form > button {
+    margin-top: 20px;
+}
+
+.name,
+.contact,
+.password {
+    display: flex;
+}
+
+.form-cell {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
