@@ -60,6 +60,8 @@ div.logo > p {
     text-align: center;
     font-family: 'NorseBold';
     font-size: clamp(1.5rem, 4rem, 80px);
+    overflow: hidden;
+    text-overflow: hidden;
 }
 
 div.main {
@@ -108,12 +110,14 @@ label {
     font-size: 0.65rem;
 }
 
-div.signup-form > p,
-div.signup-form > button {
-    margin-left: 40px;
+input {
+    border-radius: 5px;
 }
-div.signup-form > button {
-    margin-top: 20px;
+input:empty:not(:invalid) {
+    border: 2px solid #d6d9dc;
+}
+input:invalid {
+    border: 2px solid #d55c5f;
 }
 
 .name,
@@ -128,4 +132,13 @@ div.signup-form > button {
     flex-direction: column;
     justify-content: flex-start;
     flex-wrap: wrap;
+}
+
+div.signup-form > p,
+div.signup-form > button {
+    margin-left: 40px;
+    font-size: 0.8rem;
+}
+div.signup-form > button {
+    margin-top: 20px;
 }
