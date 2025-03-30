@@ -88,3 +88,8 @@ div.signup-form > form {
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+div.signup-form > form > p,
+div.signup-form > form > div {
+    margin-left: 40px;
+}
