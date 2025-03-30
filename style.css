@@ -30,10 +30,14 @@ div.hero-image {
 div.hero-image > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
-    font-size: 0.9rem;
+    font-size: 0.7rem;
     text-align: center;
     position: relative;
     top: 75%;
+}
+
+div.hero-image :link {
+    color: white;
 }
 
 div.logo {
