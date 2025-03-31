@@ -61,7 +61,6 @@ div.logo > p {
     text-align: center;
     font-family: 'NorseBold';
     font-size: clamp(1.5rem, 4rem, 80px);
-    overflow: hidden;
     text-overflow: hidden;
 }
 
