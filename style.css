@@ -136,15 +136,20 @@ input:invalid {
     flex-wrap: wrap;
 }
 
-div.signup-form > p,
-div.signup-form > button {
+button,
+div.signup-form > p {
     font-size: 0.8rem;
 }
 div.signup-form > p {
     margin-left: 40px;
 }
 
-div.signup-form > button {
+div.signup-form > p > :link {
+    text-decoration: none;
+    color: #596d48;
+}
+
+button {
     background-color: #596d48;
     color: white;
     border-radius: 5px;
@@ -153,11 +158,6 @@ div.signup-form > button {
     font-weight: 700;
     padding: 5px 40px;
 }
-div.signup-form > button:hover {
+button:hover {
     cursor: pointer;
-}
-
-div.signup-form > p > :link {
-    text-decoration: none;
-    color: #596d48;
 }
