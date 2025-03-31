@@ -23,8 +23,9 @@ body {
 
 div.hero-image {
     height: clamp(400px, 100vh, 800px);
-    width: clamp(400px, 40%, 800px);
+    width: clamp(400px, 20%, 800px);
     background: url('./images/background-image.jpg') center/cover;
+    flex: none;
 }
 
 div.hero-image > p {
@@ -69,6 +70,7 @@ div.main {
     flex-direction: column;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.05);
+    flex: 5;
 }
 
 div.summary-text {
