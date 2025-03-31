@@ -138,11 +138,10 @@ input:invalid {
 
 div.signup-form > p,
 div.signup-form > button {
-    margin-left: 40px;
     font-size: 0.8rem;
 }
-div.signup-form > button {
-    margin-top: 20px;
+div.signup-form > p {
+    margin-left: 40px;
 }
 
 div.signup-form > button {
@@ -150,7 +149,7 @@ div.signup-form > button {
     color: white;
     border-radius: 5px;
     border: 2px solid rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    margin: 20px 0 20px 40px;
     font-weight: 700;
     padding: 5px 40px;
 }
