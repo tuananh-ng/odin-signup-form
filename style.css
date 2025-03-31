@@ -27,7 +27,6 @@ div.hero-image {
     background: url('./images/background-image.jpg') center/cover;
     flex: none;
 }
-
 div.hero-image > p {
     color: white;
     background-color: rgba(0, 0, 0, 0.4);
@@ -36,7 +35,6 @@ div.hero-image > p {
     position: relative;
     top: 75%;
 }
-
 div.hero-image :link {
     color: white;
 }
@@ -50,12 +48,10 @@ div.logo {
     position: relative;
     top: 100px;
 }
-
 div.logo > img {
     width: max(80px, 20%);
     height: max(100px, 20%);
 }
-
 div.logo > p {
     color: white;
     text-align: center;
@@ -64,9 +60,14 @@ div.logo > p {
     text-overflow: hidden;
 }
 
-div.main {
+div.main,
+form,
+.form-cell {
     display: flex;
     flex-direction: column;
+}
+
+div.main {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.05);
     flex: 5;
@@ -78,7 +79,6 @@ div.summary-text {
     text-wrap: wrap;
     width: 60%;
 }
-
 div.summary-text > p:last-child {
     margin-top: 20px;
 }
@@ -91,11 +91,11 @@ form {
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
     padding: 10px 40px 40px;
-    display: flex;
-    flex-direction: column;
     gap: 10px;
 }
-
+.form-cell {
+    justify-content: flex-start;
+}
 form > p {
     font-size: 1.3rem;
     margin-bottom: 10px;
@@ -129,12 +129,6 @@ input:invalid {
     gap: 40px;
 }
 
-.form-cell {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-}
 
 button,
 div.signup-form > p {
@@ -143,7 +137,6 @@ div.signup-form > p {
 div.signup-form > p {
     margin-left: 40px;
 }
-
 div.signup-form > p > :link {
     text-decoration: none;
     color: #596d48;
