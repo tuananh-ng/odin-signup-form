@@ -49,8 +49,8 @@ div.logo {
     top: 100px;
 }
 div.logo > img {
-    width: max(80px, 20%);
-    height: max(100px, 20%);
+    width: 80px;
+    height: 100px;
 }
 div.logo > p {
     color: white;
