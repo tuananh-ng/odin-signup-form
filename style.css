@@ -21,7 +21,7 @@ body {
 }
 
 div.hero-image {
-    height: clamp(400px, 100vh, 800px);
+    height: max(400px, 100vh);
     width: clamp(400px, 20%, 800px);
     background: url('./images/background-image.jpg') center/cover;
 }
@@ -68,6 +68,7 @@ form,
 div.main {
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.05);
+    height: 100vh;
 }
 
 div.summary-text {
